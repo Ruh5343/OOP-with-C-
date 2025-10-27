@@ -1,0 +1,19 @@
+##include <bits/stdc++.h>
+using namespace std;
+class swapo{
+public:
+int a=1, b=5, temp;
+void s();
+};
+void swapo::s(){
+cout<<"A="<<a<<" "<<"B="<<b<<endl;
+temp=a;
+a=b;
+b=temp;
+cout<<"A="<<a<<" "<<"B="<<b<<endl;
+}
+int main(){
+swapo a;
+a.s();
+return 0;
+}
