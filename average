@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+class average{
+public:
+int s;sum=0, avg;
+void sum_avg();
+};
+void average::sum_ang(){
+for(int i=1;i<=50;i++){
+sum+=i;
+avg=sum/50;
+}
+cout<<avg<<endl;
+}
+int main(){
+average a;
+a.sum_avg();
+return 0;
+}
